@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>test</title>
+	<script type="text/javascript" src="jsget.js"></script>
+</head>
+<body>
+
+</body>
+<script type="text/javascript">
+	get("http://labs.bible.org/api/?passage=John%203:16&type=json&callback=callback", function(data) {
+		console.log("Yep it worked");
+	})
+</script>
+</html>
